@@ -17,7 +17,7 @@ for real-world problems in high-tech and industrial domains.
 - Built a **yield-risk scoring layer** mapping predictions to Low / Medium / High / Critical risk
 - Deployed as an interactive **Streamlit dashboard** with live inference
 
-**[View live dashboard →](https://wafer-defect-detection-dashboard-jbxkmaiauhllreewbzctav.streamlit.app)**
+**[View live dashboard →](https://wafer-defect-dashboard-page.streamlit.app/)**
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)
