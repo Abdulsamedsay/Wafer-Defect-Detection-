@@ -347,9 +347,9 @@ with st.sidebar:
 # ══════════════════════════════════════════════════════════════════════════════
 if page == "Project Overview":
     metrics = get_metrics()
-    mf1 = metrics.get("macro_f1", 0.872)
-    acc  = metrics.get("accuracy", 0.931)
-    wf1  = metrics.get("weighted_f1", 0.946)
+    mf1 = metrics.get("macro_f1", 0.686)
+    acc  = metrics.get("accuracy", 0.866)
+    wf1  = metrics.get("weighted_f1", 0.899)
 
     st.markdown(f"""
 <div class="ds-page">
@@ -693,7 +693,7 @@ elif page == "Model Performance":
   <div class="ds-section-head">
     <div>
       <h2 class="ds-section-title"><span class="ds-section-num">01</span> Baseline comparison</h2>
-      <p class="ds-section-sub">The CNN beats classical baselines and a transfer-learning ResNet-18 on macro F1.</p>
+      <p class="ds-section-sub">The CNN improves over classical baselines, while ResNet-18 remains a stronger transfer-learning reference on macro F1.</p>
     </div>
   </div>
   <div class="ds-card">
@@ -766,7 +766,7 @@ elif page == "Model Performance":
   </div>
   <div class="ds-grid-3">
     {insight_html("WHY MACRO F1", "Accuracy is misleading on WM-811K.", "~85% of the dataset is 'None'. A trivial classifier predicting 'None' everywhere reaches 85% accuracy but near-zero macro F1. Macro F1 forces the model to perform well on rare classes too.")}
-    {insight_html("WEAKEST CLASS", "Scratch (F1 ≈ 0.75)", "Scratch defects are thin, localized, and often confused with Loc and Random. Targeted augmentation and class-weighted loss are the likely next levers.")}
+    {insight_html("WEAKEST CLASS", "Scratch (F1 ≈ 0.10)", "Scratch defects are thin, localized, and often confused with Loc and Random. Targeted augmentation and class-weighted loss are the likely next levers.")}
     {insight_html("STRONGEST CLASS", "Edge-Ring (F1 = 0.96)", "Distinctive annular pattern with high spatial signal. The model reliably identifies ring-shaped defect distributions across confidence ranges.")}
   </div>
 </div>
