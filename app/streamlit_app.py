@@ -454,7 +454,7 @@ if page == "Project Overview":
           <tr><td class="dim">FRONTEND</td><td class="mono">Streamlit · Plotly · PIL</td></tr>
           <tr><td class="dim">DATASET</td><td class="mono">WM-811K · 172,950 labeled</td></tr>
           <tr><td class="dim">COMPUTE</td><td class="mono">Single GPU · ~2.4h training</td></tr>
-          <tr><td class="dim">DEPLOY</td><td class="mono"><a href="https://wafer-defect-detection.streamlit.app" target="_blank" style="color:var(--info);text-decoration:none;">wafer-defect-detection.streamlit.app ↗</a></td></tr>
+          <tr><td class="dim">DEPLOY</td><td class="mono"><a href="https://wafer-defect-dashboard-page.streamlit.app" target="_blank" style="color:var(--info);text-decoration:none;">wafer-defect-detection.streamlit.app ↗</a></td></tr>
         </table>
       </div>
     </div>
