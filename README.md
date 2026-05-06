@@ -6,7 +6,8 @@
 **Domain:** Computer Vision · Industrial AI · Semiconductor Manufacturing  
 **Stack:** Python · PyTorch · Streamlit · Grad-CAM · scikit-learn
 
-🔗 **[Live Dashboard](https://wafer-defect-detection.streamlit.app)** · **[GitHub](https://github.com/Abdulsamedsay/wafer-defect-detection-dashboard)**
+🔗 **[Live Dashboard](wafer-defect-detection.streamlit.app
+)** · **[GitHub](https://github.com/Abdulsamedsay/wafer-defect-detection-dashboard)**
 
 ---
 
