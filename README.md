@@ -1,4 +1,4 @@
-w# Wafer Defect Detection & Yield Risk Dashboard
+## Wafer Defect Detection & Yield Risk Dashboard
 
 > An end-to-end AI decision-support tool for semiconductor wafer defect classification,
 > spatial explainability, and yield-risk estimation.
@@ -234,4 +234,4 @@ wafer-defect-detection-dashboard/
 | Explainability | Grad-CAM (custom implementation) |
 | Dashboard | Streamlit 1.57 |
 | Dataset | WM-811K (LSWMD.pkl, Kaggle) |
-# wafer-defect-detection-dashboard
+
